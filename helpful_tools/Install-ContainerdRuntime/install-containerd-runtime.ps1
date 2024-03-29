@@ -229,6 +229,15 @@ Install-Feature
 function
 New-ContainerTransparentNetwork
 {
+    # Check if we've already created the container network
+    $networks = Get-HNSNetwork | Where-Object { $_.Name -eq "Transparent" }
+    if ($networks -ne $null)
+    {
+        Write-Output "Container network (Transparent) already exists. Skipping network creation".
+        return;
+    }
+
+    # Continue to create container network
     if ($ExternalNetAdapter)
     {
         $netAdapter = (Get-NetAdapter | Where-Object {$_.Name -eq "$ExternalNetAdapter"})[0]
