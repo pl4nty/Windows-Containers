@@ -252,7 +252,8 @@ New-ContainerTransparentNetwork
 {
     # Check if transparent network already created
     $networkList = docker network ls 
-    if ($networkList -match '\bTransparent\b') {
+    if ($networkList -match '\bTransparent\b')
+    {
         Write-Output "Network with the name Transparent exists."
         return
     }
