@@ -2,7 +2,9 @@
 name: Ask a question
 about: Ask a question related to the Windows containers platform or runtime
 title: ''
-labels: question
+labels: 
+  - question
+  - triage
 assignees: ''
 
 ---
