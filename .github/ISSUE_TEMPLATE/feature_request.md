@@ -2,7 +2,9 @@
 name: Feature request
 about: Provide supporting details for a feature in development
 title: ''
-labels: enhancement
+labels:
+  - enhancement
+  - triage
 assignees: ''
 
 ---

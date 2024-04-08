@@ -2,7 +2,9 @@
 name: Bug report
 about: Report a bug encountered while running Windows containers
 title: ''
-labels: bug
+labels:
+  - bug
+  - triage
 assignees: ''
 
 ---
