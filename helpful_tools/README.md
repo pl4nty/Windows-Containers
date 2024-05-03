@@ -18,23 +18,23 @@ A container runtime is software that executes containers and manages container i
 #### [👉 Install ContainerD with PowerShell](https://github.com/microsoft/Windows-Containers/tree/Main/helpful_tools/Install-ContainerdRuntime)
 
 ## System Information Tools
-### Query Job Limits
+### 3. Query Job Limits
 - PowerShell script queries the limits and other information for a running job on Windows using various system calls. 
 - Useful for understanding the resource constraints of a Windows process or job.
 #### [👉 Run Script to Gather Info](https://github.com/microsoft/Windows-Containers/tree/Main/helpful_tools/Query-JobLimits)
 
 ## Logging & Monitoring Tools
-### Log Collector
+### 4. Log Collector
 - Shell script uses a host process container (HPC) to collect zipped log files generated from the `collect-windows-logs.ps1` command.
 - After the script executes, the captured logs are stored in a specified location.
 #### [👉 Run Script to Capture Logs](https://github.com/microsoft/Windows-Containers/tree/Main/helpful_tools/LogCollector)
 
-### Performance Trace Collector
+### 5. Performance Trace Collector
 - Shell script creates an Azure storage account and a storage container for storing the top web search results for the user's query. 
 - Used primarily for performance tracing and results storage.
 #### [👉 Run Script to Collect Traces](https://github.com/microsoft/Windows-Containers/tree/Main/helpful_tools/PerfTraceCollector)
 
-### Network Policy
+### 6. Network Policy
 - Shell script helps with network policy tracing in a **Kubernetes** environment. 
 - Collects switch port settings, applies network policies, and tests network connectivity based on those policies.
 #### [👉 Run Script to Gather Info](https://github.com/microsoft/Windows-Containers/tree/Main/helpful_tools/NetworkPolicy)
