@@ -16,7 +16,7 @@ A container runtime is software that executes containers and manages container i
 - Handles the complete container lifecycle, including image transfer and storage, container execution and supervision, and low-level storage and network attachments.
 - Use containerd when you need an efficient runtime, particularly in resource-constrained environments like embedded systems or IoT devices, or when embedding into a larger system.
 #### [👉 Install ContainerD with PowerShell](https://github.com/microsoft/Windows-Containers/tree/Main/helpful_tools/Install-ContainerdRuntime)
-#### [👉 Install ContainerD and BuildKit on GitHub Actions](./Install-BuildKit-GitHubActions/)
+#### [👉 Install ContainerD and BuildKit on GitHub Actions](./GitHubActions/)
 
 ## System Information Tools
 ### 3. Query Job Limits
